@@ -181,7 +181,7 @@ void loop() {
   }
   voneClient.loop();
 
-  if (gasValue > 1500) {  // If gas value is high
+  if (gasValue > 1600) {  // If gas value is high
     tone(piezoBuzzer, 500);  // Trigger piezo buzzer
       delay(5000);  // Buzzer alert duration
   }
